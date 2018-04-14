@@ -1,0 +1,42 @@
+.maindiv{
+  background:lightblue;
+  display: flex;
+  justify-content: space-between;
+}
+.leftdiv{
+  background: yellow;
+  width:25%;
+  position:fixed;
+  text-align: center;
+  border-radius: 5px;
+}
+.rightdiv{
+   background: pink;
+  width:70%;
+  margin-left: 28%;
+}
+.pic{
+  width:80%;
+  border-radius: 5px;
+}
+.l1{
+  margin-top: 2%;
+  border-radius: 5px;
+}
+@media screen and (max-device-width:768px) {
+  .maindiv{
+    background: lightgreen;
+    display:block;
+  }
+  .leftdiv{
+    position: relative;
+    width:100%;
+  }
+  .rightdiv{
+    margin-left: 0%;
+    width:100%;
+  }
+  .l2{
+    display:flex;
+  }
+}
